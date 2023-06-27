@@ -9,7 +9,7 @@ const SideBarMainWeather = () => {
         <ChevronLeftIcon fontSize='large' />
       </div>
       <div className='text-7xl flex flex-col items-center justify-center gap-5'>
-        <div>27 C</div>
+        <div>27 °C</div>
         <div className='text-xl flex items-center justify-center gap-2'>
           <WbSunnyIcon />
           <span> Sunny</span>
