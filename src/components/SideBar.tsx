@@ -1,11 +1,13 @@
-import ToggleButton from './ToggleButton'
+import SideBarHeader from './SideBarHeader'
+import SideBarMainWeather from './SideBarMainWeather'
+import SideBarWeatherContent from './SideBarWeatherContent'
 
-type Props = {}
-
-const SideBar = (props: Props) => {
+const SideBar = () => {
   return (
-    <div className='h-full bg-red-200 w-4/12'>
-      <ToggleButton />
+    <div className='h-full bg-blue-400 w-3/12 flex flex-col bg-[url("../public/sidebarbg.jpg")] bg-hero bg-no-repeat bg-cover bg-center bg-fixed'>
+      <SideBarHeader />
+      <SideBarWeatherContent />
+      <SideBarMainWeather />
     </div>
   )
 }
