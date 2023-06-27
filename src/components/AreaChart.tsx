@@ -62,7 +62,7 @@ const data = [
 export default function Example() {
   return (
     <div className='flex justify-center'>
-      <ResponsiveContainer height={200} width="90%">
+      <ResponsiveContainer height={180} width="85%">
         <AreaChart
           data={data}
           margin={{

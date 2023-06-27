@@ -1,6 +1,7 @@
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 import ChevronRightIcon from '@mui/icons-material/ChevronRight'
 import Example from './AreaChart'
+import ChartIcons from './ChartIcons'
 const ContentChart = () => {
   return (
     <div className='flex flex-col mt-12 mx-20 bg-white rounded-3xl '>
@@ -15,7 +16,10 @@ const ContentChart = () => {
           </div>
         </div>
       </div>
-      <div className='mb-4 mt-8'>
+      <div className='mb-3 w-12/12'>
+        <ChartIcons />
+      </div>
+      <div className='mb-4 mt-8 w-full'>
         <Example /> 
       </div>
     </div>
