@@ -12,12 +12,12 @@ const ToggleButton = () => {
   if (isToggled) {
     return (
       <div>
-        <ToggleOnIcon onClick={handleToggle} />
+        <ToggleOnIcon onClick={handleToggle} fontSize='large'  />
       </div>
     )
   } else {
     return <div>
-      <ToggleOffIcon onClick={handleToggle} />
+      <ToggleOffIcon onClick={handleToggle} fontSize='large'  />
     </div>
   }
 }

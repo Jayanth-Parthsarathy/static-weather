@@ -8,7 +8,7 @@ const SideBarHeader= () => {
   return (
     <div className='w-full h-11 flex items-center justify-around mt-4'>
         <IconButton className="bg-white">
-          <AddIcon />
+          <AddIcon fontSize='large' />
         </IconButton>
         <IconButton className='flex w-fit gap-2'>
           <div className='h-1 w-4 bg-gray-200 rounded-lg'></div>
